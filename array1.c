@@ -1,8 +1,8 @@
 
 int main()
 {
-	int salary = 0;
-	int money[10] = { 50000, 10000, 5000, 1000, 500, 100, 50, 10, 5, 1 };
+	int salary = 0; 
+	int money[10] = { 50000, 10000, 5000, 1000, 500, 100, 50, 10, 5, 1 }; // 각 동전을 배열로 선언 
 	int count[10];
 	scanf_s("%d", &salary);
 	for (int i = 0; i < 10; i++)
